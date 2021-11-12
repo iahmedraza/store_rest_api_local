@@ -6,7 +6,6 @@ from resources.user import UserRegister, User
 from resources.item import Item, ItemList
 from db import db
 from resources.store import Store, StoreList
-import os
 app = Flask(__name__)
 uri =  "sqlite:///data.db" 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
